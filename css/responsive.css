@@ -1,0 +1,234 @@
+/*
+
+Template: The Resume - Personal Resume HTML Template
+Author: Shekhar Tyagi
+Version: 1.0
+Design and Developed by: Shekhar Tyagi
+
+NOTE: This file contains the styling for responsive Template.
+
+*/
+
+/*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+@media screen and (min-width: 1601px) {
+
+.container-fluid { width: 1600px; } 
+.navbar-default { width: 1300px; margin: 0 auto; }
+
+}
+
+@media (max-width:1449px) {
+
+/************ header ************/
+.navbar-default .navbar-nav > li > a { padding: 29px 15px; }
+.navbar-brand img { margin-top: 7px; height: 45px; }
+#menu.sticky .navbar-brand > img { margin-top: 0px; }
+
+ }
+
+@media (max-width:1365px) {
+
+.container-fluid, .header, #menu.sticky { padding: 0px 30px; }
+
+}
+
+@media (max-width:1199px) {
+
+.mbottom { margin-bottom: 30px; }
+
+}
+
+@media (max-width:1099px) {
+
+.navbar-default .navbar-nav > li > a { font-size: 12px; }
+.service-block { padding: 25px; }
+.address ul li p { padding-left: 5px; }
+.social ul li a { margin: 10px 15px 0 0; }
+
+}
+
+@media(max-width:1023px) {
+
+/************ button ************/
+.button { padding: 10px 30px; font-size: 16px; }
+
+/************ section title ************/
+.section-title { margin-bottom: 30px; }
+.section-title h2 { font-size: 38px; }
+.section-title span { font-size: 16px; }
+
+/************ section Padding ************/
+.page-section { padding: 40px 0px; }
+.page-section-pt { padding: 40px 0px 0; }
+.page-section-pb { padding: 0px 0px 40px; }
+
+/************ header ************/
+.header { position: absolute; padding: 0 30px; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
+
+/*Menu*/
+.navbar-brand { padding: 12px 0px; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
+.navbar-brand img { height: 35px; margin-top: 0; }
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0px; }
+#menu { padding: 0px; }
+.navbar { margin-bottom: 0px; }
+#menu.sticky { padding: 0 30px; background: #fff; }
+#menu.sticky .navbar-brand { padding: 12px 0; }
+.navbar-collapse.pull-right { float: none !important; }
+.navbar-header { float: none; padding: 0; }
+.navbar-left, .navbar-right { float: none !important; }
+.navbar-toggle { display: block; margin-right: 0; margin-top: 15px; margin-bottom: 0; padding: 8px; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
+.navbar-collapse { border-top: 1px solid transparent; box-shadow: none; }
+.navbar-collapse.collapse { display: none !important; width: 100%; }
+.navbar-nav li { float: none; }
+.navbar-nav li a { padding-top: 10px; padding-bottom: 10px; padding-left: 0px; }
+.collapse.in { display: block !important; }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form { border: none; top: 60px; position: absolute; width: 100% !important; left: 0px; background: #3d4451; }
+.navbar { min-height: 60px; padding: 10px 0; }
+.navbar-toggle .icon-bar { height: 3px; width: 30px; }
+.navbar-custom { border-bottom: none; background-color: #191919; }
+.navbar-header .logo { padding: 0px 0; }
+.navbar-default .navbar-nav > li > a { padding: 10px 15px; border-top: 0px; color: #fff; font-size: 14px; }
+.navbar-right { float: none !important; margin: 0px; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: transparent; }
+.navbar-default .navbar-toggle { border: none; }
+.navbar-default .navbar-toggle .icon-bar { background-color: #3d4451; }
+.navbar-default .navbar-toggle:hover>.icon-bar { background-color: #07aaf5; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover { background: #07aaf5; color: #fff; border-top: none; }
+#menu.sticky .navbar-nav > li > a { padding: 10px 0px 10px 35px; }
+#menu.sticky .navbar-brand > img { height: 35px; }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { background: #07aaf5; color: #fff; border-top: none; }
+.navbar-nav > li > .dropdown-menu li a { line-height: 20px; padding-left: 25px; font-weight: 600; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #fff; background: #07aaf5; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #fff; background: #07aaf5; }
+.navbar-nav .open .dropdown-menu { position: static; float: none; width: auto; margin-top: 0; background-color: transparent; border: 0; -webkit-box-shadow: none; box-shadow: none; }
+.banner-bg { height: 55vh }
+.banner-content h2 { font-size: 28px; line-height: 34px; }
+.banner-content h1 { font-size: 42px; }
+.banner #typer { height: 45px; }
+.about-contact { margin-bottom: 15px; }
+.about-contact .contact-info h4 { font-size: 18px; display: inline-block; width: 100%; }
+.about-block .signature { margin-top: 0; }
+.about-block p { font-size: 14px; line-height: 24px; }
+.service-block.mtop { margin-top: 0px; }
+.services .col-lg-4.col-md-4.col-sm-6:nth-child(-n+4) .service-block { margin-bottom: 30px; }
+.full-screen .grid-item { width: 50%; }
+footer h2 { font-size: 24px; }
+.address ul li { margin-bottom: 10px; }
+.address ul li p { padding-left: 10px; }
+.contact-content { padding-left: 35px; }
+#back-to-top .top { right: 20px; }
+
+/*Bolg Page*/
+.page-header { padding: 12% 0px 10%; margin-top: 50px; }
+.page-header .breadcrumb { margin-bottom: 0px; padding: 0px; }
+.page-header .breadcrumb li { font-size: 14px; }
+.page-header-title h1 { font-size: 34px; }
+.blog-comments { margin-top: 0px; }
+
+}
+
+@media(max-width:979px) {
+
+.container-fluid { padding: 0px 20px; }
+.header { padding: 0 15px; }
+#menu.sticky { padding: 0 15px; background: #fff; }
+.about-contact .contact-info h4 { font-size: 16px; }
+.about-contact .contact-info p { line-height: normal; font-size: 14px; }
+.address-info { padding: 15px; }
+.address ul li p { padding-left: 0px; display: block; margin-top: 5px; }
+
+}
+
+@media(max-width:767px) {
+
+/************ Collam No Padding ************/
+.no-gutter > [class*='col-'] { padding-right: 15px; padding-left: 15px; }
+
+/************ Equal Height ************/
+.row-eq-height { display: block; }
+
+/************ button ************/
+.button { padding: 10px 15px; font-size: 14px; }
+
+/************ section title ************/
+.section-title { margin-bottom: 30px; }
+.section-title h2 { font-size: 30px; }
+.section-title span { font-size: 14px; }
+.mouse-icon { display: none; }
+.banner-content h2 { font-size: 22px; line-height: 28px; }
+.banner-content h1 { font-size: 32px; }
+.banner #typer { height: 34px; }
+.about-image:before { top: 10px; left: -10px; }
+.about-image { margin-bottom: 30px; }
+.about-contact { width: 100%; }
+.about-contact .contact-info h4 { width: inherit; }
+.about-contact .contact-icon { display: inline-block; float: left; margin-right: 10px; margin-bottom: 0px; }
+.about-block .signature { float: left !important; }
+.services .col-lg-4.col-md-4.col-sm-6:nth-child(5) .service-block { margin-bottom: 30px; }
+.timline-year { margin: 0; left: -10px; height: 60px; width: 60px; }
+.timline-year h3 { font-size: 18px; }
+ul.timeline:before { left: 23px; }
+ul.timeline > li { margin-bottom: 0; position: relative; width: 100%; float: left; clear: left; }
+ul.timeline > li > .timeline-panel { width: 89%; padding: 15px; }
+ul.timeline > li > .timeline-badge { left: 11px; margin-left: 0; top: 16px; }
+ul.timeline > li > .timeline-panel { float: right; }
+ul.timeline > li > .timeline-panel:before { border-left-width: 0; border-right-width: 15px; left: -15px; right: auto; }
+.timeline > li > .timeline-panel:after { border-left-width: 0; border-right-width: 14px; left: -14px; right: auto; }
+.timeline > li.timeline-inverted { float: left; clear: left; margin-top: 30px; margin-bottom: 30px; }
+.timeline > li.timeline-inverted > .timeline-badge { left: 11px; }
+.skill-content h2 { font-size: 24px; }
+.full-screen .grid-item { width: 100%; padding: 10px 0; }
+.isotope-filters { margin-bottom: 15px; }
+.isotope-filters  button { font-size: 14px; }
+.testimonials .testimonial-content i { font-size: 28px; }
+.testimonials .testimonial-content { padding: 20px 15px; }
+.blog .col-lg-3.col-md-6.col-sm-6:nth-child(3) .blog-block { margin-bottom: 30px; }
+footer { padding: 100px 0 50px; }
+.address-info { position: initial; top: 0; right: 0; z-index: 9; -webkit-transform: translateY(0); -moz-transform: translateY(0); transform: translateY(0); width: 100%; }
+.contact-content { padding-left: 25px; }
+
+/*Bolg Page*/
+.page-header { padding: 14% 0px 12%; }
+.page-header-title h1 { font-size: 28px; }
+.comments-1 .comments-photo { margin-right: 15px; width: 60px; float: none; margin-bottom: 15px; }
+.comments-1.comments-2 .comments-info { padding: 0; margin-bottom: 20px; }
+.comments-1.comments-2 { padding-left: 0; }
+.port-title h2 { font-size: 24px; margin-bottom: 10px; }
+.port-meta li { font-size: 14px; }
+
+}
+
+@media(max-width:479px) {
+
+/************ section Padding ************/
+.page-section { padding: 25px 0px; }
+.page-section-pt { padding: 25px 0px 0; }
+.page-section-pb { padding: 0px 0px 25px; }
+.banner-content h2 { font-size: 18px; line-height: 22px; }
+.banner-content h1 { font-size: 24px; }
+.banner #typer { height: 26px; margin-bottom: 10px; }
+.about-social { padding: 0px; }
+.about-social ul li a { margin: 0px 3px 5px 0; }
+.service-block { padding: 15px 10px; }
+ul.timeline > li > .timeline-panel { width: 83%; }
+.isotope-filters  button { padding: 10px; }
+.portfolio-item .overlay h4 { font-size: 16px; }
+.testimonials .testimonial-content i { font-size: 0px; padding-right: 0px; }
+.blog-block .blog-details .blog-title a { font-size: 20px; }
+.address ul li { width: 100%; }
+.address ul li p { display: table-cell; padding-left: 10px; }
+.social p { padding-bottom: 0px; }
+.social ul li a { margin: 0px 15px 15px 0; }
+.address-info .button { float: left; }
+.about-social ul li:last-child a { margin-right: 0px; }
+
+/*Bolg Page*/
+.page-header { padding: 14% 0px 12%; }
+.page-header-title h1 { font-size: 24px; }
+.pagination-lg>li>a, .pagination-lg>li>span { font-size: 16px; padding: 10px 13px; }
+
+}

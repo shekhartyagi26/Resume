@@ -1,0 +1,59 @@
+/*
+
+Template: The Resume - Personal Resume HTML Template
+Author: Shekhar Tyagi
+Version: 1.0
+Design and Developed by: Shekhar Tyagi
+
+NOTE: This is color stylesheet of Color Scheme.
+
+*/
+
+/************************* selection *************************/
+*::-moz-selection { background: #323232; color: #fff; text-shadow: none; }
+::-moz-selection { background: #323232; color: #fff; text-shadow: none; }
+::selection { background: #323232; color: #fff; text-shadow: none; }
+
+/************************* buttton *************************/
+.button:before { background: #56c8d2; }
+
+/*Butten white*/
+.button.blue { background: #56c8d2; color: #fff; }
+
+/*input*/
+::-webkit-input-placeholder { color: #56c8d2; }
+:-moz-placeholder { color: #56c8d2; }
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 1000px white inset !important; color: #56c8d2 !important; }
+
+/************************* selection Title *************************/
+.section-title h2 { color: #56c8d2; }
+.section-title h2:before { background: #56c8d2; }
+.section-title h2:after { background: #56c8d2; }
+ 
+/************************* Background *************************/
+.blue-bg, .service-block.blue-bg, .about-image .signature, .about-social ul li a, .service-block:hover, .timeline > li:hover .timeline-panel, .item-link a, .testimonials:before, .blog-block .blog-date, #back-to-top .top:hover, .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover, .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .slidebar-tag ul li a:hover { background: #56c8d2; }
+
+  /*background important*/
+ .skill .bar, .nicescroll-rails div { background: #56c8d2 !important; }
+
+/************************* Color *************************/
+.blue-text, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav>li>a.active, .navbar-default .navbar-nav>li>a:hover, .about-contact .contact-icon span, .service-block span, .service-block.blue-bg:hover span, .isotope-filters  button.active, .isotope-filters  button:hover, .item-link a:hover, .blog-block .blog-meta a .fa, .blog-block .blog-meta a:hover, .blog-block .blog-details .blog-title a:hover, .social ul li a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .page-header .breadcrumb li a:hover, input:focus, .slidebar h3, .slidebar-link ul li a:hover, .slidebar-post .post a:hover, .search .form-group i, .comments-1 .comments-info a, .comments-1 .comments-info h4, .blog-content blockquote p span, .port-meta li i { color: #56c8d2; }
+
+/************************* Border *************************/
+ .about-image, .service-block, .isotope-filters  button.active, .isotope-filters  button:hover, .contact-form input:focus, .contact-form textarea:focus, .slidebar-tag ul li a:hover, .form-control, blockquote { border-color: #56c8d2; }
+
+ /* buttton Left */
+ .timeline > li:hover .timeline-panel:after { border-left-color: #56c8d2; }
+
+ /* buttton Right */
+ .timeline > li:hover .timeline-panel:after { border-right-color: #56c8d2; }
+
+ /* buttton Top */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav>li>a.active, .navbar-default .navbar-nav>li>a:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover { border-top-color: #56c8d2; }
+
+@media(max-width:1023px) {
+
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-toggle:hover>.icon-bar { background: #56c8d2; color: #fff; }
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background: #3d4451; color: #56c8d2; }
+	
+}
